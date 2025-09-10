@@ -340,20 +340,7 @@ const NavigationDemo = () => {
             )}
 
             {/* Hover popup */}
-            {hoverInfo && (
-              <Popup
-                longitude={hoverInfo.coordinates[0]}
-                latitude={hoverInfo.coordinates[1]}
-                anchor="top"
-                closeButton={false}
-                closeOnClick={false}
-              >
-                <div className="popup-content">
-                  <h4>{hoverInfo.name}</h4>
-                  <p>{hoverInfo.coordinates[0].toFixed(4)}, {hoverInfo.coordinates[1].toFixed(4)}</p>
-                </div>
-              </Popup>
-            )}
+                git push --set-upstream origin main
           </Map>
         </div>
       </div>
